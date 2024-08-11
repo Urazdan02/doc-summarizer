@@ -1,6 +1,3 @@
-# doc-summarizer
-A web-based application that uses GPT-2 to generate summaries from PDF and Word documents, or manually entered text. Built with Streamlit, this app allows users to easily upload files, customize chunking options, and obtain concise summaries of lengthy documents."  You can use or modify this description as needed when setting up your repository
-
 This project is a web-based application built with Streamlit that allows users to upload PDF and Word documents or input text manually to generate summaries using a pre-trained GPT-2 model. The app processes the input text, splits it into manageable chunks, and then generates a summary for each chunk.
 
 ## Features
@@ -13,8 +10,14 @@ This project is a web-based application built with Streamlit that allows users t
 
 To get started with this project, you'll need to clone the repository and install the necessary dependencies.
 
-### Prerequisites
+### Create a Virtual Environment
 
+In the root directory of your project, run the following command to create a virtual environment:
+
+```bash
+python3 -m venv newenv
+
+### Prerequisites
 - Python 3.7 or higher
 - `pip` package manager
 
@@ -23,8 +26,8 @@ To get started with this project, you'll need to clone the repository and instal
 First, clone the repository:
 
 ```bash
-git clone https://github.com/Urazdan02/doc-summarizer.git
-cd doc-summarizer
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 
 ### Then, install the required Python packages using pip:
 
@@ -36,4 +39,3 @@ pip install -r requirements.txt
 
 bash
 streamlit run final.py
-
